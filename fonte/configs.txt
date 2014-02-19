@@ -1,0 +1,41 @@
+//Arquivo com configurações 
+//Linhas começadas com // ou com espaço são ignoradas
+//Se precisar parar o programa a a qualquer tempo, crie um arquivo
+//stop.dat na pasta hist dentro da pasta dentro da pasta onde está armazenado
+//o arquivo com os links
+
+Pasta onde armazenar dados e onde está o arquivo com os links 	:	C:\Repositories_LABIC\branches\Patrick\fontes\Crawler\teste
+
+//É assumido que está na mesma pasta onde armazena os dados
+Nome de arquivo com os links e usuarios				:	links.csv
+
+Numero de iterações (paginas visitadas) para salvar histórico	:	4000
+
+Termina programa após salvar histórico (true/false)		:	false
+
+Tamanho mínimo (em kB) das imagem armazenada			:	15
+
+Tamanho mínimo (em pixels) das imagem armazenada		:	200
+
+Largura mínima (em pixels) das imagem armazenada		:	200
+
+Formato de imagens capturadas (em minúsculas)			:	bmp;jpg;jpeg;tiff;tif
+
+//tempo de espera entre requisições não pode ser muito baixo pois
+//pode derrubar um site ou o site pode bloquear o ip da máquina
+Tempo de espera entre requisições (em milissegundos) 		:	400
+
+//Timeout de conexão: se passar este tempo e não conseguir
+//conectar ou coletar dados, a conexão é abortada
+Tempo de timeout em segundos. Valor zero implica em infinito	:	60
+
+Sequencia de imagens, páginas e usuários começa a partir de	:	100000
+
+//arquivo de padrões apresenta as tags que devem ser buscadas
+//para encontrar os links e os formatos de imagens que devem ser salvas.
+//Olhar patterns.txt para detalhes.
+
+Usa o arquivo de padrões (true/false)				:	false
+
+Nome do arquivo de padrões					:	patterns.txt
+

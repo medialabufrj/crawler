@@ -1,0 +1,25 @@
+//Arquivo que define padrões para encontrar links em uma página
+//O formato de busca segue o padrão de jsoup.org/?, mais especificamente
+//http://jsoup.org/cookbook/extracting-data/selector-syntax
+//
+//Cada linha é um padrão de busca, onde os argumentos são separados por virgula
+//Os três primeiros argumentos são de busca:
+//
+//O primeiro busca a tag onde está o link, exemplo: 
+//tag a: <a rel="nofollow" href="http://www.facebook.com/pages/PontoV/165792590126713">
+//quando colocado entre parenteses são procurados tags que possuem o conteúdo entre parenteses.
+//
+//O segundo parâmetro diz qual deve ser o nome da tag, no caso anterior o nome é a.
+//Esse valor pode ser deixado em branco (espaço).
+//
+//O terceiro argumento procura um valor de uma atributo da tag, no caso o link. Do exemplo
+//anterior, href retorna: http://www.facebook.com/pages/PontoV/165792590126713 
+//A palavra chave abs:href serve para voltar o link absoluto.  
+//No entanto, recomenda-se colocar a palavra chave abspath: antes do atributo.
+//
+//O resto da lista define as extensão de imagens para salvar. 4 é número de extensões,
+//seguidas pelo nome das extensões. As extensões devem estar presentes tb no arquivo de configuração.
+
+//padrão do flick
+[data-defer-src];img;abs:data-defer-src;4;bmp;jpg;jpeg;tiff
+
