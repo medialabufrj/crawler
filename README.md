@@ -6,7 +6,7 @@ Crawler
 Este documento descreve os principais passos para utilização do Crawler desenvolvido no Labic. O Crawler e uma ferramenta computacional capaz de capturar imagens e páginas de sites da internet e armazená-las no computador. Junto com  os dados coletados da internet, são criados vários arquivos de controle e armazenamento de informação. As principais informações sobre estes arquivos também são descritas neste documento.
 
 ```
-versão e instruções adaptadas para MAC OSX
+versão e instruções adaptadas para Ubuntu e OSX
 ```
 
 ### Funcionalidade do código
