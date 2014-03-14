@@ -68,7 +68,8 @@ C:\Ándrea\teste
 Dentro da pasta onde está o arquivo Crawler_simples2.class, execute o comando:
 
 ```
-java -Xmx512m -cp jsoup-1.7.2.jar; Crawler_simples2 configs.txt
+# java [options] Crawler_simples2 <config file> <dir>
+java -Xmx512m -cp .:jsoup-1.7.2.jar Crawler_simples2 configs.txt .
 ```
 
 A partir daí as imagens e os links começam a ser baixados para dentro da pasta teste.
@@ -105,7 +106,7 @@ Após algum tempo o programa irá automaticamente fechar.
 Caso queira retornar a executar o programa, delete o arquivo `stop.dat`, e volte a executar o comando:
 
 ```
-java -Xmx512m -cp jsoup-1.7.2.jar; Crawler_simples2 configs.txt
+java -Xmx512m -cp .:jsoup-1.7.2.jar Crawler_simples2 configs.txt .
 ```
 
 ### Baixar Dados de Vários Arquivos tweets.csv ao Mesmo Tempo
