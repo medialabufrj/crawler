@@ -5,23 +5,6 @@ Este documento descreve os principais passos para utilização do Crawler desenv
 Funcionalidade do código
 =====
 O Crawler apresentado neste documento foi desenvolvido para capturar imagens e sites postados no Twitter pelos usuários. A descrição realizada neste documento é de uma versão beta do código. Versões futuras do código incluíram extrair informações postadas por usuários do Facebook assim como vídeos da internet.
-Compilação
-======
-Para compilar o código fonte é necessário ter instalado no computador o Java Development Kit (JDK). Se estiver instalado, coloque os arquivos leitura_twitter.java, Crawler_simples2.java, PatternsFile.java e jsoup-1.7.2.jar dentro de uma pasta. Abra um terminal (no caso do Linux) ou o DOS (no caso do Windows) vai até dentro da pasta onde estão os arquivos, e execute os comandos:
-
-javac leitura_twitter.java
-javac –cp jsoup-1.7.2.jar; PatternsFile.java
-javac –cp jsoup-1.7.2.jar; Crawler_simples2.java
-
-Ao executar esse comando são gerados os seguintes arquivos dentro da pasta:
-
-leitura_twitter.class
-
-PatternFile.class
-
-Crawler_simples2.class
-
-Uma vez que o código fonte foi compilado, não é necessário compilar novamente, basta usar os arquivos gerados. Os arquivos gerados irão rodar em qualquer computador que tenha o ambiente Java instalado.
 
 Execução
 ======
